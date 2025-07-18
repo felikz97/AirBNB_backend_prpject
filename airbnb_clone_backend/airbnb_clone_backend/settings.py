@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'django_extensions',  # Useful extensions for Django development
     #'debug_toolbar',  # Debug toolbar for development
     'rest_framework_simplejwt',  # JWT authentication for REST framework
-    'django.contrib.sites',  # For site management
+    'django.contrib.sites',
+    # Django filters for REST framework
 ]
 
 REST_FRAMEWORK = {
@@ -59,6 +60,11 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+    ],
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend',
+        'rest_framework.filters.SearchFilter',
+        'rest_framework.filters.OrderingFilter',
     ]
 }
 

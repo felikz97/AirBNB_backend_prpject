@@ -1,15 +1,20 @@
 from rest_framework import serializers
 from .models import Property, PropertyImage
 from users_app.models import User
-class PropertyImageSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = PropertyImage
-        fields = ['id', 'image', 'uploaded_at']
+from rest_framework import serializers
+
 
 class PropertySerializer(serializers.ModelSerializer):
-    images = PropertyImageSerializer(many=True, read_only=True)
-
     class Meta:
         model = Property
-        fields = ['id', 'host', 'title', 'description', 'price_per_night', 'location', 'max_guests', 'created_at', 'images']
-        read_only_fields = ['id', 'created_at']
+        fields = '__all__'
+
+    def validate_price_per_night(self, value):
+        if value <= 0:
+            raise serializers.ValidationError("Price must be greater than 0.")
+        return value
+
+    def validate_max_guests(self, value):
+        if value < 1:
+            raise serializers.ValidationError("There must be at least 1 guest allowed.")
+        return value 

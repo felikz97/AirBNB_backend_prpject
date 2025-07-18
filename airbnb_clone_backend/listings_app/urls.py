@@ -9,5 +9,6 @@ urlpatterns = [
     path('', include(router.urls)),
 ]
 
+
 # This file defines the URL routing for the listings app in the Airbnb clone backend.
 # It uses Django REST Framework's DefaultRouter to automatically generate routes for the PropertyViewSet.
