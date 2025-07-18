@@ -4,4 +4,10 @@ from .models import Review
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
-        fields = ['id', 'reviewer', 'property', 'rating', 'comment', 'created_at']
+        fields = '__all__'
+        read_only_fields = ['id', 'reviewer', 'created_at']
+
+    def validate_rating(self, value):
+        if not (1 <= value <= 5):
+            raise serializers.ValidationError("Rating must be between 1 and 5.")
+        return value

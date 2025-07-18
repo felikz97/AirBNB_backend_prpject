@@ -8,6 +8,7 @@ class PropertySerializer(serializers.ModelSerializer):
     class Meta:
         model = Property
         fields = '__all__'
+        read_only_fields = ['id', 'host', 'created_at']
 
     def validate_price_per_night(self, value):
         if value <= 0:

@@ -10,6 +10,11 @@ class Property(models.Model):
     location = models.CharField(max_length=255)
     max_guests = models.PositiveIntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
+    currency = models.CharField(
+        max_length=3,
+        choices=[('USD', 'USD'), ('EUR', 'EUR'), ('GBP', 'GBP')],
+        default='USD'
+    )
 
 class PropertyImage(models.Model):
     property = models.ForeignKey(Property, on_delete=models.CASCADE, related_name='images')
