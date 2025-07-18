@@ -1,24 +1,22 @@
-from rest_framework import viewsets, permissions, status
-from rest_framework.response import Response
+from rest_framework import viewsets, permissions
 from .models import Booking
 from .serializers import BookingSerializer
 
 class BookingViewSet(viewsets.ModelViewSet):
-    queryset = Booking.objects.all()
+    """
+    ViewSet for booking operations.
+    - Admins can view all bookings
+    - Authenticated users can view/create/update their own
+    """
     serializer_class = BookingSerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    permission_classes = [permissions.IsAuthenticated]
+    lookup_field = 'id'  # Optional: lets you use /bookings/{id}/ explicitly
+
+    def get_queryset(self):
+        user = self.request.user
+        if user.is_staff:
+            return Booking.objects.all()
+        return Booking.objects.filter(guest=user)
 
     def perform_create(self, serializer):
         serializer.save(guest=self.request.user)
-
-    def update(self, request, *args, **kwargs):
-        instance = self.get_object()
-        if instance.guest != request.user:
-            return Response({'detail': 'Only the guest who booked can update this.'}, status=403)
-        return super().update(request, *args, **kwargs)
-
-    def destroy(self, request, *args, **kwargs):
-        instance = self.get_object()
-        if instance.guest != request.user:
-            return Response({'detail': 'Only the guest who booked can cancel this.'}, status=403)
-        return super().destroy(request, *args, **kwargs)

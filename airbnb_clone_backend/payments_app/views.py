@@ -1,11 +1,13 @@
 from rest_framework import viewsets, permissions
 from .models import Payment
 from .serializers import PaymentSerializer
+from core_app.throttles import PaymentThrottle
 
 class PaymentViewSet(viewsets.ModelViewSet):
     queryset = Payment.objects.all()
     serializer_class = PaymentSerializer
     permission_classes = [permissions.IsAuthenticated]
+    throttle_classes = [PaymentThrottle]
 
     def perform_create(self, serializer):
         # Validate payment logic, prevent double payment
