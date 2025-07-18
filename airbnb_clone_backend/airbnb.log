@@ -81,3 +81,175 @@ WARNING 2025-07-18 15:35:12,308 django.server "GET /api/bookings/ HTTP/1.1" 401 
 INFO 2025-07-18 15:35:13,890 django [2025-07-18 12:35:12] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
 WARNING 2025-07-18 15:35:13,893 django.request Unauthorized: /api/bookings/
 WARNING 2025-07-18 15:35:13,893 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-18 15:47:56,892 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 15:48:13,177 django [2025-07-18 12:48:10] Anonymous - 127.0.0.1 - Unknown Location - GET /api/bookings/
+INFO 2025-07-18 15:48:13,178 django [2025-07-18 12:48:09] Anonymous - 127.0.0.1 - Unknown Location - GET /api/bookings/
+WARNING 2025-07-18 15:48:13,991 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-18 15:48:13,991 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-18 15:48:13,992 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-18 15:48:13,993 django.server - Broken pipe from ('127.0.0.1', 52519)
+INFO 2025-07-18 15:48:14,449 django.server "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-07-18 15:48:14,454 django.server "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-07-18 15:48:14,497 django.server "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-07-18 15:48:14,510 django.server "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-07-18 15:48:14,779 django.server "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-07-18 15:48:14,780 django.server "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-07-18 15:48:14,788 django.server "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-07-18 15:48:14,792 django.server "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-07-18 15:48:14,840 django.server "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-07-18 15:48:14,890 django.server "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-07-18 15:48:14,895 django.server "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-07-18 15:48:14,914 django.server "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-07-18 15:48:20,585 django [2025-07-18 12:48:15] Anonymous - 127.0.0.1 - Unknown Location - GET /favicon.ico
+WARNING 2025-07-18 15:48:20,619 django.request Not Found: /favicon.ico
+WARNING 2025-07-18 15:48:20,621 django.server "GET /favicon.ico HTTP/1.1" 404 3845
+INFO 2025-07-18 15:48:30,655 django [2025-07-18 12:48:24] Anonymous - 127.0.0.1 - Unknown Location - GET /api/token/
+WARNING 2025-07-18 15:48:30,752 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-18 15:48:30,753 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-18 15:49:28,648 django [2025-07-18 12:49:26] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /admin/logout/
+INFO 2025-07-18 15:49:28,673 django.server "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2025-07-18 15:49:29,345 django [2025-07-18 12:49:28] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /admin/
+INFO 2025-07-18 15:49:29,348 django.server "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-07-18 15:49:31,116 django [2025-07-18 12:49:29] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /admin/login/
+INFO 2025-07-18 15:49:31,248 django.server "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2025-07-18 15:49:31,277 django.server "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-07-18 15:49:31,297 django.server "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-07-18 15:49:31,326 django.server "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-07-18 15:49:31,327 django.server "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-07-18 15:49:31,376 django.server "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-07-18 15:49:31,382 django.server "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-07-18 15:49:31,461 django.server "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-07-18 15:52:20,385 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 15:52:42,446 django [2025-07-18 12:52:41] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /
+WARNING 2025-07-18 15:52:42,453 django.request Not Found: /
+WARNING 2025-07-18 15:52:42,454 django.server "GET / HTTP/1.1" 404 3794
+INFO 2025-07-18 15:52:50,116 django [2025-07-18 12:52:49] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/
+INFO 2025-07-18 15:52:50,212 django.server "GET /api/ HTTP/1.1" 200 5258
+INFO 2025-07-18 15:52:50,982 django [2025-07-18 12:52:50] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-18 15:52:51,008 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-18 15:52:51,008 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-18 15:52:51,829 django [2025-07-18 12:52:51] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-18 15:52:51,838 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-18 15:52:51,839 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-18 15:53:00,903 django [2025-07-18 12:53:00] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/token/
+INFO 2025-07-18 15:53:01,930 django.server "POST /api/token/ HTTP/1.1" 200 8150
+INFO 2025-07-18 15:53:13,555 django [2025-07-18 12:53:13] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings
+INFO 2025-07-18 15:53:13,588 django.server "GET /api/bookings HTTP/1.1" 301 0
+INFO 2025-07-18 15:53:14,048 django [2025-07-18 12:53:13] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-18 15:53:14,053 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-18 15:53:14,054 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-18 16:00:50,129 django [2025-07-18 13:00:47] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/token/
+INFO 2025-07-18 16:00:51,162 django.server "POST /api/token/ HTTP/1.1" 200 8150
+INFO 2025-07-18 16:01:07,647 django [2025-07-18 13:01:05] Anonymous - 127.0.0.1 - Unknown Location - GET /
+WARNING 2025-07-18 16:01:07,807 django.request Not Found: /
+WARNING 2025-07-18 16:01:07,808 django.server "GET / HTTP/1.1" 404 3794
+INFO 2025-07-18 16:01:14,799 django [2025-07-18 13:01:08] Anonymous - 127.0.0.1 - Unknown Location - GET /admin/login/
+INFO 2025-07-18 16:01:14,961 django.server "GET /admin/login/?next=/admin/myapp/posts/ HTTP/1.1" 200 4197
+INFO 2025-07-18 16:08:21,377 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\serializers.py changed, reloading.
+INFO 2025-07-18 16:08:23,467 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:08:28,164 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\serializers.py changed, reloading.
+INFO 2025-07-18 16:08:29,901 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:08:37,835 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\serializers.py changed, reloading.
+INFO 2025-07-18 16:08:38,912 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:09:09,904 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:09:10,927 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:09:24,008 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:09:25,108 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:10:11,311 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:10:12,926 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:10:27,127 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:10:28,288 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:10:34,790 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:10:35,978 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:11:05,613 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\serializers.py changed, reloading.
+INFO 2025-07-18 16:11:06,654 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:11:35,007 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:11:36,141 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:12:41,653 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\serializers.py changed, reloading.
+INFO 2025-07-18 16:12:42,955 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:12:54,304 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\serializers.py changed, reloading.
+INFO 2025-07-18 16:12:56,260 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:13:24,602 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:13:26,039 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:13:48,934 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:13:50,579 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:14:06,061 django [2025-07-18 13:14:04] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/token/
+INFO 2025-07-18 16:14:07,394 django.server "POST /api/token/ HTTP/1.1" 200 8150
+INFO 2025-07-18 16:14:27,846 django [2025-07-18 13:14:21] Anonymous - 127.0.0.1 - Unknown Location - GET /api/
+INFO 2025-07-18 16:14:27,865 django.server "GET /api/ HTTP/1.1" 200 5258
+INFO 2025-07-18 16:14:30,359 django [2025-07-18 13:14:24] Anonymous - 127.0.0.1 - Unknown Location - GET /
+WARNING 2025-07-18 16:14:30,374 django.request Not Found: /
+WARNING 2025-07-18 16:14:30,376 django.server "GET / HTTP/1.1" 404 3794
+INFO 2025-07-18 16:14:37,151 django [2025-07-18 13:14:34] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /admin/users_app/user/
+INFO 2025-07-18 16:14:37,156 django.server "GET /admin/users_app/user/ HTTP/1.1" 302 0
+INFO 2025-07-18 16:14:40,100 django [2025-07-18 13:14:37] Anonymous - 127.0.0.1 - Unknown Location - GET /admin/login/
+INFO 2025-07-18 16:14:40,126 django.server "GET /admin/login/?next=/admin/users_app/user/ HTTP/1.1" 200 4203
+INFO 2025-07-18 16:15:14,745 django [2025-07-18 13:15:12] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/refresh/
+WARNING 2025-07-18 16:15:14,771 django.request Method Not Allowed: /api/token/refresh/
+WARNING 2025-07-18 16:15:14,782 django.server "GET /api/token/refresh/ HTTP/1.1" 405 7521
+INFO 2025-07-18 16:15:23,108 django [2025-07-18 13:15:20] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/efresh/
+WARNING 2025-07-18 16:15:23,118 django.request Not Found: /api/token/efresh/
+WARNING 2025-07-18 16:15:23,119 django.server "GET /api/token/efresh/ HTTP/1.1" 404 14418
+INFO 2025-07-18 16:15:33,011 django [2025-07-18 13:15:26] Anonymous - 127.0.0.1 - Unknown Location - GET /api/token/
+WARNING 2025-07-18 16:15:33,038 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-18 16:15:33,040 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-18 16:15:59,229 django [2025-07-18 13:15:58] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /
+WARNING 2025-07-18 16:15:59,234 django.request Not Found: /
+WARNING 2025-07-18 16:15:59,235 django.server "GET / HTTP/1.1" 404 3794
+INFO 2025-07-18 16:16:05,909 django [2025-07-18 13:16:04] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/
+INFO 2025-07-18 16:16:05,918 django.server "GET /api/ HTTP/1.1" 200 5258
+INFO 2025-07-18 16:16:10,607 django [2025-07-18 13:16:09] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/users/
+WARNING 2025-07-18 16:16:10,647 django.request Unauthorized: /api/users/
+WARNING 2025-07-18 16:16:10,648 django.server "GET /api/users/ HTTP/1.1" 401 10437
+INFO 2025-07-18 16:16:49,561 django [2025-07-18 13:16:49] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/users/
+INFO 2025-07-18 16:16:50,824 django.server "POST /api/users/ HTTP/1.1" 201 10664
+INFO 2025-07-18 16:17:08,185 django [2025-07-18 13:17:02] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-18 16:17:08,196 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-18 16:17:08,197 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-18 16:49:02,188 django [2025-07-18 13:48:59] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/users/
+WARNING 2025-07-18 16:49:02,268 django.request Bad Request: /api/users/
+WARNING 2025-07-18 16:49:02,269 django.server "POST /api/users/ HTTP/1.1" 400 10530
+INFO 2025-07-18 16:49:15,023 django [2025-07-18 13:49:12] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-18 16:49:15,045 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-18 16:49:15,047 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-18 16:50:25,464 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:50:42,014 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:50:49,121 django [2025-07-18 13:50:48] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /
+WARNING 2025-07-18 16:50:49,128 django.request Not Found: /
+WARNING 2025-07-18 16:50:49,129 django.server "GET / HTTP/1.1" 404 3794
+INFO 2025-07-18 16:50:58,331 django [2025-07-18 13:50:57] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/
+INFO 2025-07-18 16:50:58,367 django.server "GET /api/ HTTP/1.1" 200 5258
+INFO 2025-07-18 16:51:54,231 django [2025-07-18 13:51:53] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-18 16:51:54,264 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-18 16:51:54,265 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-18 16:51:55,612 django [2025-07-18 13:51:55] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-18 16:51:55,628 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-18 16:51:55,630 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-18 16:52:17,809 django [2025-07-18 13:52:17] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/token/
+INFO 2025-07-18 16:52:18,844 django.server "POST /api/token/ HTTP/1.1" 200 8150
+INFO 2025-07-18 16:52:25,704 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\users_app\views.py changed, reloading.
+INFO 2025-07-18 16:52:27,170 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-18 16:52:29,889 django [2025-07-18 13:52:29] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/token/
+INFO 2025-07-18 16:52:30,906 django.server "POST /api/token/ HTTP/1.1" 200 8150
+INFO 2025-07-18 16:52:48,224 django [2025-07-18 13:52:47] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/token/
+INFO 2025-07-18 16:52:49,177 django.server "POST /api/token/ HTTP/1.1" 200 8150
+INFO 2025-07-18 16:52:53,355 django [2025-07-18 13:52:52] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/token/
+INFO 2025-07-18 16:52:54,425 django.server "POST /api/token/ HTTP/1.1" 200 8150
+INFO 2025-07-18 16:53:00,350 django [2025-07-18 13:52:59] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-18 16:53:00,359 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-18 16:53:00,361 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-18 16:53:01,483 django [2025-07-18 13:53:00] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-18 16:53:01,488 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-18 16:53:01,489 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-18 16:53:19,254 django [2025-07-18 13:53:18] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-18 16:53:19,266 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-18 16:53:19,268 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-18 16:53:21,439 django [2025-07-18 13:53:20] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-18 16:53:21,442 django.request Unauthorized: /api/bookings/
+INFO 2025-07-18 16:53:21,443 django.server - Broken pipe from ('127.0.0.1', 56739)
+INFO 2025-07-18 16:53:21,862 django [2025-07-18 13:53:21] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-18 16:53:21,870 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-18 16:53:21,872 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-18 16:53:22,524 django [2025-07-18 13:53:21] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-18 16:53:22,528 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-18 16:53:22,529 django.server "GET /api/bookings/ HTTP/1.1" 401 5181

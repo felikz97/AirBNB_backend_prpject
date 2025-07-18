@@ -1,6 +1,8 @@
 from rest_framework import viewsets, permissions
 from .models import User
 from .serializers import UserSerializer
+from rest_framework_simplejwt.views import TokenObtainPairView
+from .serializers import CustomTokenObtainPairSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
@@ -19,3 +21,6 @@ class UserViewSet(viewsets.ModelViewSet):
         if user.is_staff:
             return User.objects.all()
         return User.objects.filter(id=user.id)
+
+class CustomTokenObtainPairView(TokenObtainPairView):
+    serializer_class = CustomTokenObtainPairSerializer
