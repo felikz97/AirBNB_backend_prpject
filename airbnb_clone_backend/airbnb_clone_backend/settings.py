@@ -37,7 +37,32 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'users_app',  # Custom user app
+    'listings_app',  # App for managing listings
+    'bookings_app',  # App for managing bookings
+    'reviews_app',  # App for managing reviews
+    'payments_app',  # App for handling payments
+    'core_app',  # Core app for shared functionality
+    'rest_framework',  # Django REST Framework for API development
+    'corsheaders',  # CORS headers for cross-origin requests
+    'django_filters',  # For filtering querysets in APIs
+    'drf_yasg',  # For generating Swagger documentation
+    'django_extensions',  # Useful extensions for Django development
+    #'debug_toolbar',  # Debug toolbar for development
+    'rest_framework_simplejwt',  # JWT authentication for REST framework
+    'django.contrib.sites',  # For site management
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+    ]
+}
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -120,3 +145,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL = 'users_app.User'

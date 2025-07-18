@@ -15,8 +15,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    
+    # App endpoints
+    path('api/', include('users_app.urls')),
+    path('api/', include('listings_app.urls')),
+    path('api/', include('bookings_app.urls')),
+    path('api/', include('payments_app.urls')),
+    path('api/', include('reviews_app.urls')),
+    
+    # Auth
+    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
+# This file defines the URL routing for the airbnb_clone_backend project, including admin and API endpoints.
