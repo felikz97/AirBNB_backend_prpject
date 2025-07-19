@@ -1043,3 +1043,27 @@ INFO 2025-07-19 10:23:38,045 django.server "GET /static/rest_framework/img/grid.
 INFO 2025-07-19 10:23:44,296 django [2025-07-19 07:23:41] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/users/
 WARNING 2025-07-19 10:23:44,320 django.request Unauthorized: /api/users/
 WARNING 2025-07-19 10:23:44,320 django.server "GET /api/users/ HTTP/1.1" 401 10437
+INFO 2025-07-19 10:35:52,279 django [2025-07-19 07:35:50] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /admin/login/
+INFO 2025-07-19 10:35:52,381 django.server "GET /admin/login/?next=/admin/users_app/user/ HTTP/1.1" 200 4203
+INFO 2025-07-19 10:35:52,732 django.server "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-07-19 10:35:52,753 django.server "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-07-19 10:35:52,755 django.server "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-07-19 10:35:52,909 django.server "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-07-19 10:35:52,950 django.server "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-07-19 10:35:52,951 django.server "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-07-19 10:35:52,970 django.server "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-07-19 10:45:37,065 django [2025-07-19 07:45:36] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/properties/
+INFO 2025-07-19 10:45:37,100 django.server "GET /api/properties/ HTTP/1.1" 200 7488
+INFO 2025-07-19 10:45:37,130 django.server "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,146 django.server "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,147 django.server "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,155 django.server "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,158 django.server "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,164 django.server "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,164 django.server "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,168 django.server "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,171 django.server "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,174 django.server "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,192 django.server "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,193 django.server "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:45:37,234 django.server "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
