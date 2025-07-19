@@ -40,6 +40,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     
+    
     # App endpoints
     path('api/', include('users_app.urls')),
     path('api/', include('listings_app.urls')),

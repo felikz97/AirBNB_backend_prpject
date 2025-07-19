@@ -21,17 +21,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-e%xy6wjgr5pn*bzcnb-++%4c2y%jr5_+r8jn&6b+1ekakd6yfh'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 # SECURITY
-"""
+
 SECRET_KEY = config('DJANGO_SECRET_KEY')
-DEBUG = config('DJANGO_DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = config('DJANGO_ALLOWED_HOSTS', default='localhost', cast=Csv)
-"""
+# DEBUG = config('DJANGO_DEBUG', default=False, cast=bool)
+
+ALLOWED_HOSTS = ['*']  # For dev only
+# ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "localhost").split(",")
+
 GEOIP_PATH = os.path.join(BASE_DIR, 'geoip')  # Folder for GeoLite2 data
 
 LOGGING = {
@@ -170,17 +172,25 @@ WSGI_APPLICATION = 'airbnb_clone_backend.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 # DATABASE
-DATABASES = {
+"""DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': config('DB_NAME'),
         'USER': config('DB_USER'),
         'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT', default='5432'),
+        'HOST': config('DB_HOST'),  # usually yourusername.mysql.pythonanywhere-services.com
+        'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        }
+    }
+}"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 

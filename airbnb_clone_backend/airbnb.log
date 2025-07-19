@@ -317,3 +317,729 @@ WARNING 2025-07-18 19:20:27,998 django.server "GET /api/users/ HTTP/1.1" 401 104
 INFO 2025-07-18 19:20:32,766 django [2025-07-18 16:20:31] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/properties/
 INFO 2025-07-18 19:20:32,830 django.server "GET /api/properties/ HTTP/1.1" 200 7488
 INFO 2025-07-18 19:24:48,710 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:00:02,838 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:02:07,988 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:07:29,923 django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2025-07-19 10:07:44,012 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:07:44,154 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:07:45,089 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:07:45,095 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:07:45,158 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:07:45,171 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:07:54,802 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:07:54,804 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:07:54,854 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:07:54,856 django.server "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2025-07-19 10:08:40,129 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:08:41,198 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:09:00,987 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:09:02,640 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:09:07,050 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:09:08,245 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:09:14,435 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:09:15,833 django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2025-07-19 10:09:20,194 django.request Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 181, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 821, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 822, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+ERROR 2025-07-19 10:09:20,224 django.server "GET /api/ HTTP/1.1" 500 145
+ERROR 2025-07-19 10:09:20,251 django.request Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 181, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 821, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 822, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+ERROR 2025-07-19 10:09:20,259 django.server "GET /favicon.ico HTTP/1.1" 500 145
+ERROR 2025-07-19 10:09:20,979 django.request Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 181, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 821, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 822, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+ERROR 2025-07-19 10:09:20,982 django.server "GET /api/ HTTP/1.1" 500 145
+ERROR 2025-07-19 10:09:21,016 django.request Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 181, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 821, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 822, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+ERROR 2025-07-19 10:09:21,021 django.server "GET /favicon.ico HTTP/1.1" 500 145
+ERROR 2025-07-19 10:09:21,346 django.request Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 181, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 821, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 822, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+ERROR 2025-07-19 10:09:21,350 django.server "GET /api/ HTTP/1.1" 500 145
+ERROR 2025-07-19 10:09:21,391 django.request Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 181, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 821, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 822, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+ERROR 2025-07-19 10:09:21,399 django.server "GET /favicon.ico HTTP/1.1" 500 145
+INFO 2025-07-19 10:09:31,699 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:10:00,378 django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2025-07-19 10:10:04,925 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:04,930 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:05,038 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:05,042 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:05,850 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:05,853 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:05,899 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:05,902 django.server "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2025-07-19 10:10:16,283 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:10:32,571 django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2025-07-19 10:10:35,151 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:35,155 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:35,186 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:35,190 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:36,128 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:36,133 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:36,172 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:36,187 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:36,723 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:36,725 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:36,764 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:36,767 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:36,978 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:36,980 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:37,015 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:37,018 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:37,165 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:37,172 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:37,239 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:37,241 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:37,371 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:37,379 django.server "GET /api/ HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:37,423 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:37,425 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:38,307 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:38,313 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:10:40,762 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:10:40,765 django.server "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2025-07-19 10:11:01,847 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:12:16,287 django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2025-07-19 10:12:21,947 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:21,963 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:22,006 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:22,011 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:23,393 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:23,397 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:23,434 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:23,436 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:23,626 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:23,630 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:23,668 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:23,670 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:23,831 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:23,839 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:23,894 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:23,897 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:23,985 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:23,988 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:24,031 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:24,034 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:24,161 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:24,165 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:24,212 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:24,214 django.server "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:24,294 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:24,297 django.server "GET / HTTP/1.1" 400 143
+ERROR 2025-07-19 10:12:24,347 django.security.DisallowedHost Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-07-19 10:12:24,350 django.server "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2025-07-19 10:12:44,285 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:13:11,815 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:13:17,818 django [2025-07-19 07:13:14] Anonymous - 127.0.0.1 - Unknown Location - GET /
+WARNING 2025-07-19 10:13:17,831 django.request Not Found: /
+WARNING 2025-07-19 10:13:17,834 django.server "GET / HTTP/1.1" 404 179
+INFO 2025-07-19 10:13:24,195 django [2025-07-19 07:13:17] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /favicon.ico
+WARNING 2025-07-19 10:13:24,200 django.request Not Found: /favicon.ico
+WARNING 2025-07-19 10:13:24,202 django.server "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-07-19 10:13:32,596 django [2025-07-19 07:13:28] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /
+WARNING 2025-07-19 10:13:32,598 django.request Not Found: /
+WARNING 2025-07-19 10:13:32,598 django.server "GET / HTTP/1.1" 404 179
+INFO 2025-07-19 10:13:44,318 django [2025-07-19 07:13:43] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/
+INFO 2025-07-19 10:13:44,628 django.server "GET /api/ HTTP/1.1" 200 5258
+INFO 2025-07-19 10:13:44,674 django.server "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-07-19 10:13:44,683 django.server "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-07-19 10:13:44,708 django.server "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-07-19 10:13:44,728 django.server "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-07-19 10:13:44,741 django.server "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-07-19 10:13:44,741 django.server "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-07-19 10:13:44,752 django.server "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-07-19 10:13:44,753 django.server "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-07-19 10:13:44,762 django.server "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-07-19 10:13:44,869 django.server "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-07-19 10:13:44,969 django.server "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-07-19 10:13:45,001 django.server "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-07-19 10:13:52,467 django [2025-07-19 07:13:51] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/users/
+WARNING 2025-07-19 10:13:52,545 django.request Unauthorized: /api/users/
+WARNING 2025-07-19 10:13:52,546 django.server "GET /api/users/ HTTP/1.1" 401 10437
+INFO 2025-07-19 10:14:02,688 django [2025-07-19 07:14:00] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings
+INFO 2025-07-19 10:14:02,690 django.server "GET /api/bookings HTTP/1.1" 301 0
+INFO 2025-07-19 10:14:04,804 django [2025-07-19 07:14:02] Anonymous - 127.0.0.1 - Unknown Location - GET /api/bookings/
+WARNING 2025-07-19 10:14:04,810 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-19 10:14:04,811 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-19 10:14:46,623 django [2025-07-19 07:14:40] Anonymous - 127.0.0.1 - Unknown Location - GET /api/token/
+WARNING 2025-07-19 10:14:46,649 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-19 10:14:46,651 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-19 10:15:09,441 django [2025-07-19 07:15:09] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/properties
+INFO 2025-07-19 10:15:09,443 django.server "GET /api/properties HTTP/1.1" 301 0
+INFO 2025-07-19 10:15:09,882 django [2025-07-19 07:15:09] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/properties/
+INFO 2025-07-19 10:15:10,040 django.server "GET /api/properties/ HTTP/1.1" 200 7488
+INFO 2025-07-19 10:15:10,068 django.server "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,068 django.server "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,068 django.server "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,078 django.server "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,079 django.server "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,081 django.server "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,099 django.server "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,105 django.server "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,106 django.server "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,106 django.server "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,111 django.server "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,124 django.server "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2025-07-19 10:15:10,205 django.server "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2025-07-19 10:15:16,147 django [2025-07-19 07:15:15] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-19 10:15:16,152 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-19 10:15:16,152 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-19 10:15:16,907 django [2025-07-19 07:15:16] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-19 10:15:16,921 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-19 10:15:16,922 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-19 10:15:34,049 django [2025-07-19 07:15:33] Anonymous - 127.0.0.1 - Unknown, Unknown - POST /api/token/
+INFO 2025-07-19 10:15:35,010 django.server "POST /api/token/ HTTP/1.1" 200 8150
+INFO 2025-07-19 10:15:43,748 django [2025-07-19 07:15:43] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-19 10:15:43,760 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-19 10:15:43,762 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-19 10:15:44,559 django [2025-07-19 07:15:44] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/bookings/
+WARNING 2025-07-19 10:15:44,574 django.request Unauthorized: /api/bookings/
+WARNING 2025-07-19 10:15:44,577 django.server "GET /api/bookings/ HTTP/1.1" 401 5181
+INFO 2025-07-19 10:15:51,019 django [2025-07-19 07:15:50] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/token/
+WARNING 2025-07-19 10:15:51,039 django.request Method Not Allowed: /api/token/
+WARNING 2025-07-19 10:15:51,041 django.server "GET /api/token/ HTTP/1.1" 405 7706
+INFO 2025-07-19 10:15:55,534 django [2025-07-19 07:15:55] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /
+WARNING 2025-07-19 10:15:55,537 django.request Not Found: /
+WARNING 2025-07-19 10:15:55,541 django.server "GET / HTTP/1.1" 404 179
+INFO 2025-07-19 10:16:09,774 django [2025-07-19 07:16:09] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /swagger/
+INFO 2025-07-19 10:16:09,847 django.server "GET /swagger/ HTTP/1.1" 200 2219
+INFO 2025-07-19 10:16:09,882 django.server "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-07-19 10:16:09,915 django.server "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-07-19 10:16:09,932 django.server "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-07-19 10:16:09,937 django.server "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-07-19 10:16:09,942 django.server "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-07-19 10:16:10,023 django.server "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-07-19 10:16:10,041 django.server "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-07-19 10:16:10,660 django [2025-07-19 07:16:10] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /swagger/
+DEBUG 2025-07-19 10:16:10,666 bookings User  accessed their bookings.
+DEBUG 2025-07-19 10:16:10,895 bookings User  accessed their bookings.
+DEBUG 2025-07-19 10:16:10,905 bookings User  accessed their bookings.
+DEBUG 2025-07-19 10:16:10,912 bookings User  accessed their bookings.
+INFO 2025-07-19 10:16:10,942 django.server "GET /swagger/?format=openapi HTTP/1.1" 200 14441
+INFO 2025-07-19 10:16:27,329 django [2025-07-19 07:16:23] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /redoc/
+INFO 2025-07-19 10:16:27,363 django.server "GET /redoc/ HTTP/1.1" 200 933
+INFO 2025-07-19 10:16:27,388 django.server "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 200 2566
+INFO 2025-07-19 10:16:27,463 django.server "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 200 1042511
+INFO 2025-07-19 10:16:28,078 django [2025-07-19 07:16:27] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /redoc/
+DEBUG 2025-07-19 10:16:28,081 bookings User  accessed their bookings.
+DEBUG 2025-07-19 10:16:28,087 bookings User  accessed their bookings.
+DEBUG 2025-07-19 10:16:28,092 bookings User  accessed their bookings.
+DEBUG 2025-07-19 10:16:28,099 bookings User  accessed their bookings.
+INFO 2025-07-19 10:16:28,126 django.server "GET /redoc/?format=openapi HTTP/1.1" 200 14441
+INFO 2025-07-19 10:16:38,732 django [2025-07-19 07:16:36] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /
+WARNING 2025-07-19 10:16:38,736 django.request Not Found: /
+WARNING 2025-07-19 10:16:38,740 django.server "GET / HTTP/1.1" 404 179
+INFO 2025-07-19 10:17:51,034 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\urls.py changed, reloading.
+INFO 2025-07-19 10:17:52,643 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:17:59,370 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\urls.py changed, reloading.
+INFO 2025-07-19 10:18:01,118 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:22:24,498 django.utils.autoreload D:\ALX_Studies\AirBNB_backend_prpject\airbnb_clone_backend\airbnb_clone_backend\settings.py changed, reloading.
+INFO 2025-07-19 10:22:27,199 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-07-19 10:22:31,138 django [2025-07-19 07:22:29] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /
+WARNING 2025-07-19 10:22:31,175 django.request Not Found: /
+WARNING 2025-07-19 10:22:31,177 django.server "GET / HTTP/1.1" 404 3794
+INFO 2025-07-19 10:23:37,909 django [2025-07-19 07:23:34] Anonymous - 127.0.0.1 - Unknown Location - GET /api/
+INFO 2025-07-19 10:23:37,972 django.server "GET /api/ HTTP/1.1" 200 5258
+INFO 2025-07-19 10:23:38,005 django.server "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,006 django.server "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,011 django.server "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,014 django.server "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,014 django.server "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,014 django.server "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,018 django.server "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,024 django.server "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,027 django.server "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,032 django.server "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,037 django.server "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:38,045 django.server "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2025-07-19 10:23:44,296 django [2025-07-19 07:23:41] Anonymous - 127.0.0.1 - Unknown, Unknown - GET /api/users/
+WARNING 2025-07-19 10:23:44,320 django.request Unauthorized: /api/users/
+WARNING 2025-07-19 10:23:44,320 django.server "GET /api/users/ HTTP/1.1" 401 10437
